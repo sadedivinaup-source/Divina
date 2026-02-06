@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Samuel's Portfolio - Web Designer, UI/UX Designer, and App Developer">
+  <meta name="keywords" content="web design, portfolio, UI/UX, app development">
+  <meta name="author" content="Samuel">
+
+  <!-- FONT AWESOME - Fixed version -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Atong Ang</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#" class="logo" aria-label="Portfolio Home">Portfolio</a>
+
+    <i class="fa-solid fa-bars" id="menu-icon" aria-label="Toggle navigation menu"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, I'm <span class="multiple-text"></span></h1>
+      <h3>Student of UPANG</h3>
+      <p>
+        I'm passionate <mark>Web Developer</mark> who loves creating clean,
+        responsive and user-friendly websites. I enjoy turning
+        ideas into functional design and continuously improving
+        my skills to build projects that make a positive impact.
+      </p>
+      
+      <div class="social-media">
+        <a href="https://www.facebook.com/share/17oaBp8esU/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://x.com/divina_sam36920" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/yuris.god?igsh=MWlucjhpeTAwZjhpZg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/samuel-divina-787691392/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+      
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+    
+    <div class="home-img">
+      <img src="https://avatarfiles.alphacoders.com/110/thumb-1920-110069.gif" alt="Profile Image">
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="https://avatarfiles.alphacoders.com/110/thumb-1920-110069.gif" alt="Samuel working on web design">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">ABOUT <span>ME</span></h2>
+      <p>
+        I'm a detail-oriented and creative <mark>Web Developer</mark> who enjoys turning
+        ideas into interactive and visually appealing websites. I value clean
+        design, usability, and performance in every propject I create. Beyond
+        coding,  I'm passionate about learning new technologies and improving
+        my craft to deliver better digital experiences. My goal is to build 
+        modern web solutions that combine functionally with great user experiences.
+      </p>
+      
+      <input type="checkbox" id="toggle-tech" hidden>
+      <div class="tech-grid" id="tech">
+        <div class="tech-item">
+          <i class="devicon-html5-plain colored"></i>
+          <p>HTML</p>
+        </div>
+        
+        <div class="tech-item">
+          <i class="devicon-css3-plain colored"></i>
+          <p>CSS</p>
+        </div>
+        
+        <div class="tech-item">
+          <i class="devicon-javascript-plain colored"></i>
+          <p>JavaScript</p>
+        </div>
+
+        <div class="tech-item">
+          <i class="devicon-php-plain colored"></i>
+          <p>PHP</p>
+        </div>
+
+        <div class="tech-item">
+          <i class="devicon-github-original colored"></i>
+          <p>GITHUB</p>
+        </div>
+        
+        <div class="tech-item">
+          <i class="devicon-figma-plain colored"></i>
+          <p>FIGMA</p>
+        </div>
+        <a href="#home" class="btn">Read more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services" id="services">
+    <h2 class="heading">MY <span>SERVICES</span></h2>
+
+    <div class="services-container">
+      <div class="services-box">
+        <i class="fa-solid fa-palette" aria-hidden="true"></i>
+        <h3>UI/UX Designing</h3>
+        <p>Creating seamless and enjoyable user experiences for websites.</p>
+        <a href="#about" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="fa-solid fa-code" aria-hidden="true"></i>                                     
+        <h3>Web Development</h3>
+        <p>Building responsive websites using HTML, CSS, and JavaScript that
+        users interact with directly.</p>
+        <a href="#about" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">FEATURES <span>PROJECTS</span></h2>
+    
+    <div class="portfolio-container">
+      
+      <div class="portfolio-box">
+        <img src="pt1.png" alt="Portfolio-train">
+        <div class="portfolio-layer">
+          <h4>Train Portfolio</h4>
+          <p>My portfolio training</p>
+          <a href="https://sadedivinaup-source.github.io/ulol/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio-train project">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="portfolio-box">
+        <img src="wbcafe.png" alt="Coffee Shop Website">
+        <div class="portfolio-layer">
+          <h4>Coffee Website</h4>
+          <p>A coffee shop is have an floating cup coffee</p>
+          <a href="https://sadedivinaup-source.github.io/coffee/" target="_blank" rel="noopener noreferrer" aria-label="Website coffee project">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="portfolio-box">
+        <img src="bg.png" alt="Burger Website">
+        <div class="portfolio-layer">
+          <h4>Burger Website</h4>
+          <p>A website is have an Light/Dark icon</p>
+          <a href="https://sadedivinaup-source.github.io/burger/" target="_blank" rel="noopener noreferrer" aria-label="Burger Website">
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>CONTACT <span>ME</span></h2>
+        <h3>Let’s Work Together</h3>
+        <p>
+          I'm always open to new projects collaboration, and creative ideas. 
+          If you looking for a dedicated <mark>Web Developer</mark> to bring 
+          your vision to life, feel free to reach out. I'm happy to connect!
+        </p>
+        
+        <div class="contact-details">
+          <p><i class="bx bx-envelope"></i> dansoy312@gmail.com</p>
+          <p><i class="bx bx-phone"></i> +63 910 564 7456</p>
+        </div>
+        
+        <div class="social-media">
+          <a href="https://www.facebook.com/share/17oaBp8esU/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://x.com/divina_sam36920" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/yuris.god?igsh=MWlucjhpeTAwZjhpZg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/samuel-divina-787691392/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      
+      <form class="contact-form">
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" required>
+        <input type="text" placeholder="Enter Your Subject">
+        <textarea placeholder="Enter Your Message"></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>&copy; 2026 by Atong Ang | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
